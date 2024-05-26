@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: foundersGrotesk;
+  src: url("./assets/FOUNDERSGROTESK-SEMIBOLD.TTF");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.font {
+  font-family: foundersGrotesk;
+}
+
+.custom-shadow {
+  filter: drop-shadow(3px 5px 5px rgb(71, 71, 71));
+}
